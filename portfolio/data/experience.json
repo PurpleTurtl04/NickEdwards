@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "role": "Senior Software Developer",
+        "company": "Aline",
+        "startDate": "Jan 2021",
+        "endDate": "May 2025",
+        "description": "As a Senior Developer, I was responsible for developing and maintaining software applications for the Leasing and Billing team. In addition to full-stack development, I assisted in managing projects by gathering requirements, facilitating communication with key stakeholders, architecting solutions and database structures, and providing guidance and support to team members."
+    },
+    {
+        "id": 2,
+        "role": "Developer 1",
+        "company": "Atria Senior Living",
+        "startDate": "Jan 2019",
+        "endDate": "Dec 2020",
+        "description": "Being a Developer on the Atria Software Engineering team allowed me to enhance my full-stack development knowledge and skills significantly. I had the opportunity to help design and develop new applications and enhancements to current systems, such as the company's Intranet. This role expanded my knowledge and understanding of how an application's architecture significantly impacts the app and any application that may interact with it."
+    },
+    {
+        "id": 3,
+        "role": "Junior Software Developer",
+        "company": "CloudFit Software",
+        "startDate": "Apr 2018",
+        "endDate": "Nov 2018",
+        "description": "Being a Developer on the Atria Software Engineering team allowed me to enhance my full-stack development knowledge and skills significantly. I had the opportunity to help design and develop new applications and enhancements to current systems, such as the company's Intranet. This role expanded my knowledge and understanding of how an application's architecture significantly impacts the app and any application that may interact with it."
+    },
+    {
+        "id": 4,
+        "role": "Messaging Consultant",
+        "company": "Humana",
+        "startDate": "Oct 2014",
+        "endDate": "Mar 2018",
+        "description": "As a Consultant on the Evaluate team in the Proactive Messaging and Analytics department, I used much of my prior experience to help launch multiple campaigns and projects successfully. By implementing my SQL, SAS, and Excel knowledge, I was able to streamline several processes and sometimes reduce processing time by as much as 40%."
+    },
+    {
+        "id": 5,
+        "role": "Reinsurance Analyst",
+        "company": "Humana",
+        "startDate": "Feb 2013",
+        "endDate": "Oct 2014",
+        "description": "As a Reinsurance Analyst, I expanded beyond focusing almost solely on journal entries and the monthly close process. This role allowed me to enhance my project management skills by leading two major projects, one of which was a yearlong software migration project I worked on with members of the Humana IT department. I led the testing for this project and communicated progress to leadership in the Financial Reporting department."
+    },
+    {
+        "id": 6,
+        "role": "Financial Analyst",
+        "company": "Humana",
+        "startDate": "Nov 2010",
+        "endDate": "Feb 2013",
+        "description": "As a Financial Analyst, I participated in the department’s monthly close process and formulated monthly claims estimates for seven different Humana Dental and Vision products, totaling around $30M on average. I was also a major role player in the department’s yearly $300M budget process by building budget input files. These files significantly decreased the administrative efforts that used to be done manually and allowed our team more time to review the data to catch any issues or outliers."
+    },
+    {
+        "id": 7,
+        "role": "Financial Analyst",
+        "company": "Kindred Healthcare",
+        "startDate": "Aug 2009",
+        "endDate": "Nov 2010",
+        "description": "I was hired as a temp to co-lead a 3-year, $16M re-standardization project to provide all Kindred rehab facilities with new uniforms, aesthetics, equipment, and building refurbishments. I was able to implement my project management skills and work with the facility managers to project product volumes and prepare a cost analysis. I then presented purchasing recommendations to Kindred leadership to show them how we could update the facilities while remaining on or under the project's budget."
+    }
+]

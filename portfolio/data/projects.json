@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Beckaroo & The Zoo",
+        "techStack": [
+            {
+                "name": "JavaScript",
+                "color": "badge-warning"
+            },
+            {
+                "name": "React",
+                "color": "badge-info"
+            },
+            {
+                "name": "Tailwindcss",
+                "color": "badge-secondary"
+            },
+            {
+                "name": "Supabase",
+                "color": "badge-success"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
+        "url": "https://google.com",
+        "github": "https://github.com/PurpleTurtl04/Portfolio",
+        "images": [
+            "/images/beckaroo1.jpg",
+            "/images/beckaroo2.jpg",
+            "/images/beckaroo3.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "ChatApp",
+        "techStack": [
+            {
+                "name": "JavaScript",
+                "color": "badge-warning"
+            },
+            {
+                "name": "React",
+                "color": "badge-info"
+            },
+            {
+                "name": "Tailwindcss",
+                "color": "badge-secondary"
+            },
+            {
+                "name": "Vite",
+                "color": "badge-primary"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
+        "url": "https://purpleturtl04-chatapp.netlify.app/",
+        "github": "https://github.com/PurpleTurtl04/ChatApp",
+        "images": [
+            "/images/chatapp1.jpg",
+            "/images/chatapp2.jpg",
+            "/images/chatapp3.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Team App",
+        "techStack": [
+            {
+                "name": "JavaScript",
+                "color": "badge-warning"
+            },
+            {
+                "name": "React",
+                "color": "badge-info"
+            },
+            {
+                "name": "Tailwindcss",
+                "color": "badge-secondary"
+            },
+            {
+                "name": "Vite",
+                "color": "badge-primary"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
+        "url": "https://purpleturtl04-teamapp.netlify.app/",
+        "github": "https://github.com/PurpleTurtl04/Team-App",
+        "images": [
+            "/images/teamapp1.jpg",
+            "/images/teamapp2.jpg",
+            "/images/teamapp3.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Beckaroo & The Zoo",
+        "techStack": [
+            {
+                "name": "JavaScript",
+                "color": "badge-warning"
+            },
+            {
+                "name": "React",
+                "color": "badge-info"
+            },
+            {
+                "name": "Tailwindcss",
+                "color": "badge-secondary"
+            },
+            {
+                "name": "Supabase",
+                "color": "badge-success"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
+        "url": "https://google.com",
+        "github": "https://github.com/PurpleTurtl04/Portfolio",
+        "images": [
+            "/images/beckaroo1.jpg",
+            "/images/beckaroo2.jpg",
+            "/images/beckaroo3.jpg"
+        ]
+    }
+]
