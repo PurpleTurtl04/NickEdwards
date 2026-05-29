@@ -1,6 +1,8 @@
 import { Nunito_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/navbar';
+import ContactModal from '@/components/contact-modal';
+import Footer from '@/components/footer';
 
 const nunitoSans = Nunito_Sans({
     variable: '--font-nunito-sans',
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
                 <main className='container mx-auto grow px-4 py-6'>
                     {children}
                 </main>
+                <ContactModal />
+                <Footer />
             </body>
         </html>
     );
