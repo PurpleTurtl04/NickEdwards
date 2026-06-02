@@ -76,31 +76,18 @@ export default function Navbar() {
                     <div className='navbar-end hidden md:flex'>
                         <ul className='menu menu-horizontal px-1 lg:gap-2'>
                             <li>
-                                <Link href='/' className='hover:bg-base-300/30'>
-                                    Home
-                                </Link>
+                                <Link href='/'>Home</Link>
                             </li>
                             <li>
-                                <Link
-                                    href='/about'
-                                    className='hover:bg-base-300/30'
-                                >
-                                    About
-                                </Link>
+                                <Link href='/about'>About</Link>
                             </li>
                             <li>
-                                <Link
-                                    href='/projects'
-                                    className='hover:bg-base-300/30'
-                                >
-                                    Projects
-                                </Link>
+                                <Link href='/projects'>Projects</Link>
                             </li>
                             <li>
                                 <Link
                                     href='?modal=open'
                                     scroll={false}
-                                    // className='btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary'
                                     className='btn btn-sm btn-outline btn-primary'
                                 >
                                     Contact
