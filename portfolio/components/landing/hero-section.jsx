@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Hero() {
+export default function HeroSection() {
     return (
         <div className='hero px-6'>
             <div className='hero-content flex-col lg:flex-row-reverse'>

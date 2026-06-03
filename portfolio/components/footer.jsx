@@ -11,16 +11,16 @@ export default function Footer() {
                 >
                     <Image
                         src='/images/Phone.svg'
-                        width='25'
-                        height='25'
+                        width={25}
+                        height={25}
                         alt='A phone symbol'
                     />
                 </a>
                 <a href='mailto:nledwa01@gmail.com'>
                     <Image
                         src='/images/Mail.svg'
-                        width='25'
-                        height='25'
+                        width={25}
+                        height={25}
                         alt='A mail envelope'
                     />
                 </a>
@@ -30,8 +30,8 @@ export default function Footer() {
                 >
                     <Image
                         src='/images/LinkedIn.svg'
-                        width='25'
-                        height='25'
+                        width={25}
+                        height={25}
                         alt='The LinkedIn logo'
                     />
                 </a>

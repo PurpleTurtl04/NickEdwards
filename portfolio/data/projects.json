@@ -56,7 +56,7 @@
             },
             {
                 "name": "Vite",
-                "color": "badge-primary"
+                "color": "badge-accent"
             }
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
@@ -95,7 +95,7 @@
             },
             {
                 "name": "Vite",
-                "color": "badge-primary"
+                "color": "badge-accent"
             }
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",

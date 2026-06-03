@@ -8,7 +8,7 @@ export default function Projects({ projects }) {
                 <h2 className='text-center text-3xl lg:text-4xl'>Projects</h2>
                 <Accent />
             </div>
-            {projects.map((project, index) => (
+            {projects.map((project) => (
                 <Project key={project.id} {...project} />
             ))}
         </div>
