@@ -1,5 +1,4 @@
-import Image from 'next/image';
-
+import Accent from '@/components/accent';
 import Project from '@/components/projects/project';
 
 export default function Projects({ projects }) {
@@ -7,13 +6,7 @@ export default function Projects({ projects }) {
         <div>
             <div className='flex flex-col items-center'>
                 <h2 className='text-center text-3xl lg:text-4xl'>Projects</h2>
-                <Image
-                    src='/images/Accent2.png'
-                    width={10}
-                    height={75}
-                    alt='A line with a circle at the bottom'
-                    className='scale-75'
-                />
+                <Accent />
             </div>
             {projects.map((project, index) => (
                 <Project key={project.id} {...project} />

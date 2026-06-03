@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import accent from '@/public/images/Accent.png';
+
 export default function AboutSection() {
     return (
         <section className='mx-auto mt-30 grid max-w-7xl grid-cols-1 items-center justify-center gap-6 px-6 lg:mt-40 lg:grid-cols-2'>
@@ -21,7 +23,7 @@ export default function AboutSection() {
             <div className='flex justify-center lg:gap-4'>
                 <div>
                     <Image
-                        src='/images/Accent.png'
+                        src={accent}
                         width={10}
                         height={355}
                         alt='Three lines spaced with two circles in-between them'
