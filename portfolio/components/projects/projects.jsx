@@ -3,8 +3,6 @@ import Image from 'next/image';
 import Project from '@/components/projects/project';
 
 export default function Projects({ projects }) {
-    const projectList = projects.slice(0, 3);
-
     return (
         <div>
             <div className='flex flex-col items-center'>
@@ -17,7 +15,7 @@ export default function Projects({ projects }) {
                     className='scale-75'
                 />
             </div>
-            {projectList.map((project, index) => (
+            {projects.map((project, index) => (
                 <Project key={project.id} {...project} />
             ))}
         </div>

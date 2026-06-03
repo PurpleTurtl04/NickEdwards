@@ -11,11 +11,28 @@ export default function Project({
     images,
 }) {
     return (
-        <div className='mx-auto grid max-w-7xl grid-cols-1 items-center justify-center gap-6 pb-8 lg:mt-4 lg:grid-cols-2'>
+        <div className='mx-auto grid max-w-7xl grid-cols-1 items-center justify-center gap-4 pb-8 lg:mt-4 lg:grid-cols-2 lg:gap-6'>
+            <div
+                className={`card mx-auto mt-4 flex max-w-lg justify-center ${id % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}
+            >
+                <div className='hover-gallery'>
+                    {images.map((image, index) => (
+                        <Image
+                            key={index}
+                            src={image.image}
+                            alt={image.alt}
+                            width={0}
+                            height={0}
+                            sizes='100vw'
+                            className='h-auto w-full rounded-2xl'
+                        />
+                    ))}
+                </div>
+            </div>
             <div
                 className={`flex flex-col items-center ${id % 2 == 0 ? 'lg:order-1' : 'lg:order-2'}`}
             >
-                <div className='mt-4 flex flex-col items-center gap-2 lg:mt-0 lg:items-start'>
+                <div className='flex flex-col items-center gap-2 lg:mt-0 lg:items-start'>
                     <h3 className='text-2xl lg:text-3xl'>{name}</h3>
                     <div className='flex gap-1 lg:gap-1.5'>
                         {techStack.map((tech, index) => (
@@ -42,23 +59,6 @@ export default function Project({
                             </button>
                         </Link>
                     </div>
-                </div>
-            </div>
-            <div
-                className={`card mx-auto flex max-w-lg justify-center ${id % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}
-            >
-                <div className='hover-gallery'>
-                    {images.map((image, index) => (
-                        <Image
-                            key={index}
-                            src={image.image}
-                            alt={image.alt}
-                            width={0}
-                            height={0}
-                            sizes='100vw'
-                            className='h-auto w-full rounded-2xl'
-                        />
-                    ))}
                 </div>
             </div>
         </div>
