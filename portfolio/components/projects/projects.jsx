@@ -4,7 +4,6 @@ import Project from '@/components/projects/project';
 
 export default function Projects({ projects }) {
     const projectList = projects.slice(0, 3);
-    console.log(projectList);
 
     return (
         <div>
@@ -18,9 +17,9 @@ export default function Projects({ projects }) {
                     className='scale-75'
                 />
             </div>
-            {/* {projectList.map((project) => (
+            {projectList.map((project, index) => (
                 <Project key={project.id} {...project} />
-            ))} */}
+            ))}
         </div>
     );
 }

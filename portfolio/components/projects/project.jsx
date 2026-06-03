@@ -9,25 +9,26 @@ export default function Project({
     url,
     github,
     images,
-    index,
 }) {
     return (
         <div className='mx-auto grid max-w-7xl grid-cols-1 items-center justify-center gap-6 pb-8 lg:mt-4 lg:grid-cols-2'>
             <div
-                classNameName={`flex flex-col items-center ${(index + 1) % 2 == 0 ? 'lg:order-1' : 'lg:order-2'}`}
+                className={`flex flex-col items-center ${id % 2 == 0 ? 'lg:order-1' : 'lg:order-2'}`}
             >
                 <div className='mt-4 flex flex-col items-center gap-2 lg:mt-0 lg:items-start'>
-                    <h3 className='text-2xl lg:text-3xl'>{{ name }}</h3>
+                    <h3 className='text-2xl lg:text-3xl'>{name}</h3>
                     <div className='flex gap-1 lg:gap-1.5'>
-                        <div
-                            className='badge badge-sm md:badge-md badge-soft'
-                            //classNameName='tech.color'
-                        >
-                            {{ name }}
-                        </div>
+                        {techStack.map((tech, index) => (
+                            <div
+                                key={index}
+                                className={`badge badge-sm md:badge-md badge-soft ${tech.color}`}
+                            >
+                                {tech.name}
+                            </div>
+                        ))}
                     </div>
                     <p className='mt-2 max-w-lg text-center lg:text-left'>
-                        {{ description }}
+                        {description}
                     </p>
                     <div className='flex justify-center gap-2 pt-3 lg:justify-start lg:pt-6'>
                         <Link href={url} target='_blank'>
@@ -44,10 +45,20 @@ export default function Project({
                 </div>
             </div>
             <div
-                classNameName={`card mx-auto flex max-w-lg justify-center ${(index + 1) % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}
+                className={`card mx-auto flex max-w-lg justify-center ${id % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}
             >
                 <div className='hover-gallery'>
-                    <Image classNameName='rounded-2xl' />
+                    {images.map((image, index) => (
+                        <Image
+                            key={index}
+                            src={image.image}
+                            alt={image.alt}
+                            width={0}
+                            height={0}
+                            sizes='100vw'
+                            className='h-auto w-full rounded-2xl'
+                        />
+                    ))}
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
                 "color": "badge-secondary"
             },
             {
-                "name": "Supabase",
+                "name": "Next.js",
                 "color": "badge-success"
             }
         ],
@@ -24,9 +24,18 @@
         "url": "https://google.com",
         "github": "https://github.com/PurpleTurtl04/Portfolio",
         "images": [
-            "/images/beckaroo1.jpg",
-            "/images/beckaroo2.jpg",
-            "/images/beckaroo3.jpg"
+            {
+                "image": "/images/beckaroo1.jpg",
+                "alt": "Beckaroo and The Zoo landing page"
+            },
+            {
+                "image": "/images/beckaroo2.jpg",
+                "alt": "Beckaroo and The Zoo sample 1"
+            },
+            {
+                "image": "/images/beckaroo3.jpg",
+                "alt": "Beckaroo and The Zoo sample 2"
+            }
         ]
     },
     {
@@ -54,9 +63,18 @@
         "url": "https://purpleturtl04-chatapp.netlify.app/",
         "github": "https://github.com/PurpleTurtl04/ChatApp",
         "images": [
-            "/images/chatapp1.jpg",
-            "/images/chatapp2.jpg",
-            "/images/chatapp3.jpg"
+            {
+                "image": "/images/chatapp1.jpg",
+                "alt": "Chat app sample 1"
+            },
+            {
+                "image": "/images/chatapp2.jpg",
+                "alt": "Chat app sample 2"
+            },
+            {
+                "image": "/images/chatapp3.jpg",
+                "alt": "Chat app sample 3"
+            }
         ]
     },
     {
@@ -84,9 +102,18 @@
         "url": "https://purpleturtl04-teamapp.netlify.app/",
         "github": "https://github.com/PurpleTurtl04/Team-App",
         "images": [
-            "/images/teamapp1.jpg",
-            "/images/teamapp2.jpg",
-            "/images/teamapp3.jpg"
+            {
+                "image": "/images/teamapp1.jpg",
+                "alt": "Team app sample 1"
+            },
+            {
+                "image": "/images/teamapp2.jpg",
+                "alt": "Team app sample 2"
+            },
+            {
+                "image": "/images/teamapp3.jpg",
+                "alt": "Team app sample 3"
+            }
         ]
     },
     {
@@ -114,9 +141,18 @@
         "url": "https://google.com",
         "github": "https://github.com/PurpleTurtl04/Portfolio",
         "images": [
-            "/images/beckaroo1.jpg",
-            "/images/beckaroo2.jpg",
-            "/images/beckaroo3.jpg"
+            {
+                "image": "/images/beckaroo1.jpg",
+                "alt": "Beckaroo and The Zoo landing page"
+            },
+            {
+                "image": "/images/beckaroo2.jpg",
+                "alt": "Beckaroo and The Zoo sample 1"
+            },
+            {
+                "image": "/images/beckaroo3.jpg",
+                "alt": "Beckaroo and The Zoo sample 2"
+            }
         ]
     }
 ]
