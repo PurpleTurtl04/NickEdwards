@@ -15,7 +15,7 @@ export default function Project({
             <div
                 className={`card mx-auto mt-4 flex max-w-lg justify-center ${id % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}
             >
-                <div className='hover-gallery'>
+                <div className='hover-gallery h-auto w-full'>
                     {images.map((image, index) => (
                         <Image
                             key={index}
@@ -24,7 +24,7 @@ export default function Project({
                             width={0}
                             height={0}
                             sizes='100vw'
-                            className='h-auto w-full rounded-2xl'
+                            className='rounded-2xl'
                         />
                     ))}
                 </div>
