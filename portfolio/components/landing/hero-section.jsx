@@ -1,16 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import HeroImage from '@/public/images/HeroImage.png';
+
 export default function HeroSection() {
     return (
         <div className='hero px-6'>
             <div className='hero-content flex-col lg:flex-row-reverse'>
                 <div className='max-w-3xl'>
                     <Image
-                        src='/images/HeroImage.png'
+                        src={HeroImage}
                         alt='Nick holding his daughter'
-                        width={905}
-                        height={912}
+                        className='ml-2 h-auto w-full min-w-sm lg:ml-5'
                     />
                 </div>
                 <div className='text-center lg:text-left'>
