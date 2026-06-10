@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import accent from '@/public/images/Accent.png';
+import Link from 'next/link';
 
 export default function AboutSection() {
     return (
@@ -10,14 +11,28 @@ export default function AboutSection() {
                     About Me
                 </h2>
                 <p className='max-w-lg text-justify lg:text-left'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non nisi eget ipsum lacinia varius et maximus magna.
-                    Sed hendrerit purus imperdiet elementum condimentum. Mauris
-                    cursus sagittis iaculis. Aenean id magna non ipsum aliquet
-                    luctus. Maecenas porta sollicitudin mauris quis cursus.
-                    Vivamus rutrum pharetra dignissim. Nunc dignissim sapien non
-                    eros egestas, sed dignissim est lacinia. Fusce rutrum ligula
-                    sed eros vestibulum, efficitur pulvinar risus posuere.
+                    A little over 8 years ago, I transitioned into software
+                    development after spending nearly a decade working as a
+                    financial and data analyst. I am passionate about creating
+                    intuitive, user-friendly websites and applications. My
+                    background has equipped me not only with the technical
+                    skills to build these solutions but also with the analytical
+                    mindset and attention to detail needed to measure their
+                    performance and ensure they are both efficient and
+                    effective.
+                </p>
+                <p className='mt-2 max-w-lg text-justify lg:text-left'>
+                    Whether you&apos;re looking to create a consumer-facing
+                    website or an internal business tool, I can help bring your
+                    vision to life. Interested in learning more? Explore my{' '}
+                    <Link href='/about' className='link link-warning'>
+                        experience
+                    </Link>{' '}
+                    and featured{' '}
+                    <Link href='/projects' className='link link-warning'>
+                        projects
+                    </Link>
+                    .
                 </p>
             </div>
             <div className='flex justify-center lg:gap-4'>

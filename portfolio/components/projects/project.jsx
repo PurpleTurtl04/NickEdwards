@@ -32,7 +32,7 @@ export default function Project({
             <div
                 className={`flex flex-col items-center ${id % 2 == 0 ? 'lg:order-1' : 'lg:order-2'}`}
             >
-                <div className='flex flex-col items-center gap-2 lg:mt-0 lg:items-start'>
+                <div className='flex flex-col items-center gap-1.5 lg:mt-0 lg:items-start lg:gap-2'>
                     <h3 className='text-2xl lg:text-3xl'>{name}</h3>
                     <div className='flex gap-1 lg:gap-1.5'>
                         {techStack.map((tech, index) => (
